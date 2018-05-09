@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: rgba(20, 71, 106, 0.38)
+}
+
+/* Style header */
+.header {
+    background-color: #8ba1a6;
+    padding: 20px;
+    text-align: center;
+}
+
+.header a {
+  font-weight: 900;
+  font-size: 35px;
+  color: rgb(13, 76, 116);
+  text-decoration: none;
+}
+
+.header a:hover {
+  font-size: 37px;
+  color: rgb(35, 56, 62);
+  border: 4px solid #777;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: rgba(137, 198, 207, 0.47);
+    padding-left: 15px;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: rgba(28, 81, 91, 0.86);
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    transition: color 250ms;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    color: rgba(249, 206, 222, 0.97);
+    background-color: rgba(49, 135, 177, 0.53);
+    font-size: 21px;
+}
+
+/* Style the intro part */
+.intro {
+  margin-top: 15px;
+  margin-left: 18px;
+}
+
+/* Style photo */
+.intro img {
+  float: left;
+  width: 18%;
+  height: auto;
+  margin-top: 35px;
+  border-radius: 30px;
+}
+
+.intro img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 21%;
+  height: auto;
+}
+
+/* Style content */
+.intro .content {
+  float: left;
+  width: 70%;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-left: 40px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+/* Style for highlighted nav section */
+.topnav .highlight {
+  color: rgba(246, 244, 65, 0.97);
+  background-color: rgba(49, 135, 177, 0.53);
+  font-size: 21px;
+}
